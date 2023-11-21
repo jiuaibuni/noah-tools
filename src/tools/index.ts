@@ -70,7 +70,6 @@ import type { ToolCategory } from './tools.types';
 import { tool as urlEncoder } from './url-encoder';
 import { tool as urlParser } from './url-parser';
 import { tool as uuidGenerator } from './uuid-generator';
-import { tool as macAddressLookup } from './mac-address-lookup';
 import { tool as xmlFormatter } from './xml-formatter';
 
 export const toolsByCategory: ToolCategory[] = [
@@ -140,7 +139,7 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
     name: '网络',
-    components: [ipv4SubnetCalculator, ipv4AddressConverter, ipv4RangeExpander, macAddressLookup, ipv6UlaGenerator],
+    components: [ipv4SubnetCalculator, ipv4AddressConverter, ipv4RangeExpander, ipv6UlaGenerator],
   },
   {
     name: '数学',
