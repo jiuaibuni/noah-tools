@@ -1,0 +1,25 @@
+home:
+  categories:
+    favoriteTools: '我的收藏'
+    allTools: '全部工具'
+  subtitle: '开发工具箱'
+  toggleMenu: '切换菜单'
+  home: '主页'
+  nav:
+    darkMode: '深色模式'
+    lightMode: '浅色模式'
+    mode: '颜色模式'
+
+404:
+  notFound: '404 页面不存在'
+  sorry: '抱歉，该页面似乎不存在'
+  maybe: '也许缓存出现了一些问题，试试强制刷新页面？'
+  backHome: '返回主页'
+favoriteButton:
+  remove: '取消收藏'
+  add: '加入收藏'
+search:
+  label: '搜索'
+tools:
+  categories:
+    favorite-tools: '我的收藏'
